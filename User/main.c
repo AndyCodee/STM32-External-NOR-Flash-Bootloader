@@ -1,35 +1,3 @@
-//#include "stm32f10x.h"
-
-//typedef void (*pFunction)(void);
-//#define APP_ADDRESS 0x08004000
-
-//void JumpToApplication(void)
-//{
-//    uint32_t appStack        = *(__IO uint32_t*)APP_ADDRESS;
-//    uint32_t appResetHandler = *(__IO uint32_t*)(APP_ADDRESS + 4);
-//    pFunction JumpToApp      = (pFunction)appResetHandler;
-
-//    __disable_irq();
-//	
-//	// 設定向量表 
-//	SCB->VTOR = APP_ADDRESS; 
-//	__DSB(); __ISB();
-
-//    // 設 MSP
-//    __set_MSP(appStack);
-
-//    __enable_irq();
-
-//    // 跳轉到 App Reset_Handler
-//    JumpToApp();
-//}
-
-//int main(void)
-//{
-//    JumpToApplication();
-//    while (1);
-//}
-
 #include "stm32f10x.h"
 #include "Key.h"
 #include "LCD9648.h"
