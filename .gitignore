@@ -1,0 +1,15 @@
+# Keil build output
+*.axf
+*.o
+*.d
+*.map
+*.lst
+
+# Keil user-specific files
+*.uvguix.*
+
+# Build folders
+Objects/
+Listings/
+RTE/
+DebugConfig/
