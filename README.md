@@ -10,7 +10,7 @@ The bootloader is designed for **multi-firmware management**, **reliable update*
 This project is based on **STM32F103C8T6** with an external **W25Q64 NOR Flash**.  
 Peripherals include **LCD9648** (menu display) and keys (PA1/PC15) for navigation.  
 
-➡️ For detailed pin mapping and hardware notes, see [Hardware.md](./hardware.md).
+➡️ For detailed pin mapping and hardware notes, see [Hardware.md](./docs/hardware.md).
 
 ## 📂 Firmware Architecture
 ### 1. Memory Map
