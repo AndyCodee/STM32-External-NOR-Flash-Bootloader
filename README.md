@@ -1,4 +1,4 @@
-# STM32 External Flash Bootloader
+# STM32 External NOR Flash Bootloader
 
 ## 📘 Overview
 This project implements a **custom bootloader** on **STM32F103** MCU, capable of loading multiple firmware images stored in an external **W25Q64 NOR Flash** into internal Flash memory.  
