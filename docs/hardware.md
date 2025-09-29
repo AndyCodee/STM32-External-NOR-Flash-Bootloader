@@ -14,8 +14,6 @@
 |                   | PB14 (RS)  | Push-Pull Output     | Register Select (Data/Command) |
 | **Keys**          | PA1        | Input Pull-Up        | Menu switch |
 |                   | PC15       | Input Pull-Up        | Confirm selection |
-| **OLED (Soft I2C)** | PB8 (SCL) | Open-Drain Output    | I2C Clock (software bit-bang) |
-|                   | PB9 (SDA) | Open-Drain Output    | I2C Data (software bit-bang) |
 | **Debug (SWD)**   | PA13 (SWDIO), PA14 (SWCLK) | Dedicated | Debug & Flash with ST-LINK |
 
 ---
